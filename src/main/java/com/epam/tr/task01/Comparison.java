@@ -1,22 +1,15 @@
 package com.epam.tr.task01;
 
 public class Comparison {
-    /*if (x >= -4 && x <= 4) {
-            if (y <= 0 && y >= -3) {
-                System.out.println(true);
-            }
-            else {
-                System.out.println(false);
-            }
-        }
-             else if (x >= -2 && x <= 2) {
-            if (y >= 0 && y <= 4 ){
-                System.out.println(true);
-            }
-            else {
-                System.out.println(false);
-            }
-        } else {
-            System.out.println( false);
-        }*/
+
+    public static boolean compare(int cx, int cy) {
+        if (cx >= -4 && cx <= 4)
+            if (cy <= 0 && cy >= -3)
+                return true;
+
+        if (cx >= -2 && cx <= 2)
+            return cy >= 0 && cy <= 4;
+
+        return false;
+    }
 }
