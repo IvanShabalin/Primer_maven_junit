@@ -2,9 +2,9 @@ package com.epam.tr.task01;
 
 import java.util.Scanner;
 
-public class InputY {
-    public  int inputY() {
-        int y;
+public class InputX {
+    public  int inputX() {
+
         Scanner str = new Scanner(System.in);
         while (!str.hasNextInt()){
             str.nextLine();
